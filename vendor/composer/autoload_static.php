@@ -66,7 +66,7 @@ class ComposerStaticInit473ca6f6818cb07fd15a2dac3c3f7a27
     );
 
     public static $classMap = array (
-        'FizzBuzz' => __DIR__ . '/../..' . '/app/FizzBuzz.php',
+        'App\\FizzBuzz' => __DIR__ . '/../..' . '/app/FizzBuzz.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
         'PHPUnit\\Framework\\AssertionFailedError' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/AssertionFailedError.php',

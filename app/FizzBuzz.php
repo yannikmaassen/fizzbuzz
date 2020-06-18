@@ -2,9 +2,10 @@
 
 declare(strict_types=1);
 
+namespace App;
+
 class FizzBuzz
 {
-
   public function runFizzBuzz()
   {
     for ($i = 1; $i <= 100; $i++) {
