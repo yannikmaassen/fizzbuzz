@@ -6,17 +6,19 @@ namespace App;
 
 class FizzBuzz
 {
-  public function runFizzBuzz()
+  public function runFizzBuzz($number)
   {
-    for ($i = 1; $i <= 100; $i++) {
-      if ($i % 3 === 0 && $i % 5 === 0) {
+    $range = range(1, 100, 1);
+
+    foreach ($range as $number) {
+      if ($number % 3 === 0 && $number % 5 === 0) {
         echo "FizzBuzz\n";
-      } elseif ($i % 3 === 0) {
+      } elseif ($number % 3 === 0) {
         echo "Fizz\n";
-      } elseif ($i % 5 === 0) {
+      } elseif ($number % 5 === 0) {
         echo "Buzz\n";
       } else {
-        echo "$i\n";
+        echo "$number\n";
       }
     }
   }
